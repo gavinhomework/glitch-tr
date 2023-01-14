@@ -81,7 +81,7 @@ app.use(
     ws: true, // 是否代理websockets
     pathRewrite: {
       // 请求中去除/api
-      "^/api": "/tr/o/jan",
+      "^/api": "qwe",
     },
     onProxyReq: function onProxyReq(proxyReq, req, res) {},
   })
